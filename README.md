@@ -13,6 +13,7 @@ Live Demo: [stensul email module manager](https://email-module-manager.firebasea
 			picture     [size=(320,  320), type=(gif | jpeg | png)],
 			description [max_length=300]
 		}
+		```
 
   	* Available actions (all without refreshing the page):
   	  * Drag and drop sort
@@ -36,7 +37,7 @@ Live Demo: [stensul email module manager](https://email-module-manager.firebasea
   * Create Item and ItemCollection model to ease development and avoid errors
   * Create logic and display layers, all item updates are made in logic layer
 
-3. Select tools:
+4. Select tools:
   * Webstorm IDE
   * Git and GitHub
   * Firebase (BaaS)
@@ -47,20 +48,20 @@ Live Demo: [stensul email module manager](https://email-module-manager.firebasea
     * Firebase for JS
     * Materialize CSS
 
-4. Initialize project:
+5. Initialize project:
   * Create GitHub repo
   * Setup Git
   * Setup npm
   * Setup Webpack
   * Setup Firebase hosting and deploy
+  
+  **Note:** *No 3rd party boilerplate or template was used for this project.*
 
-**Note:** *No 3rd party boilerplate or template was used for this project.*
+6. Start development
 
-5. Start development
+7. Review code and add documentation
 
-6. Review code and add documentation
-
-7. Push changes
+8. Push changes
 
 **Note:** *None of git best practices (branching model, atomic commits, etc) will be applied, source will be pushed in bulk because of project size, team size and time restrictions*
 
