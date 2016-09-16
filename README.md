@@ -70,8 +70,9 @@ Live Demo: [stensul email module manager](https://email-module-manager.firebasea
 Run:
 ```
 # npm install -g firebase-tools
-# npm install -g webpack
+# npm install -g webpack webpack-dev-server
 $ npm install
+$ npm start
 ```
 
 ## Known issues
