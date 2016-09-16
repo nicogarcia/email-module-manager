@@ -1,0 +1,40 @@
+<div class="item item-collection__item" id="item_{{ id }}">
+    <div class="card horizontal z-depth-4">
+
+        <!-- Card image -->
+        <div class="item__image card-image">
+            <img src="{{ picture }}" class="item__uploaded-picture">
+            <input type="file" class="item__uploaded-file">
+            <div class="item__image-upload-action">
+                <i class="material-icons">camera_alt</i>
+            </div>
+        </div>
+
+        <!-- Card content -->
+        <div class="item__right-content">
+            <div class="item__description-wrapper">
+                <p class="item__description">
+                    {{ description }}
+                </p>
+                <input type="text" class="item__edit-description">
+            </div>
+
+            <div class="item__action">
+
+                <div class="item__delete-action_wrapper">
+                    <div class="item__delete-action">
+                        <i class="material-icons">clear</i>
+                    </div>
+                </div>
+
+                <div class="item__drag-handle_wrapper">
+                    <div class="item__drag-handle">
+                        <i class="material-icons">drag_handle</i>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+</div>

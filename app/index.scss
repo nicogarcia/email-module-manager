@@ -1,0 +1,15 @@
+body {
+  background: url(./bg-hero.jpg) repeat 0 0
+}
+
+.sortable-ghost {
+  opacity: 1;
+}
+
+.sortable-chosen {
+  opacity: 0;
+}
+
+.sortable-fallback {
+  opacity: 0;
+}

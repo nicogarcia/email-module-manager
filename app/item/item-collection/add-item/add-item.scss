@@ -1,0 +1,19 @@
+.add-item-form {
+
+  .item {
+    &__image-upload-action {
+      cursor: pointer;
+    }
+
+    &__uploaded-file {
+      visibility: hidden;
+      width: 1px;
+      height: 1px;
+    }
+
+    .add-item {
+      background-color: #585069 !important;
+    }
+  }
+
+}
